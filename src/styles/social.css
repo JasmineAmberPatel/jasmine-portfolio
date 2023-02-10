@@ -1,0 +1,22 @@
+.Social {
+    box-shadow: 0 1rem 2rem rgba(black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    background: rgb(225,201,255);
+    background: radial-gradient(circle, rgba(225,201,255,1) 0%, rgba(138,198,209,1) 100%);
+    background-size: cover;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
