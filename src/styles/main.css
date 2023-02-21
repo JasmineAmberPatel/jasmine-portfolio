@@ -19,20 +19,16 @@
   }
 
 .Title {
-    font-size: 5rem;
     display: flex;
-    justify-content: center;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     animation: moveInLeft 1s ease-out;
 }
 
 .Subtitle {
-    font-size: 2.5rem;
     display: flex;
     justify-content: center;
-    color: #272727;
+    font-size: 2.5rem;
 }
 
 .Paragraph {
@@ -41,7 +37,8 @@
     justify-content: flex-start;
     align-content: flex-start;
     font-family: sans-serif;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 .btn {
@@ -58,9 +55,6 @@
 }
 
 @media (max-width: 1200px) {
-  .Home {
-      height: 70vh;
-  }
   body {
     margin-right: 0em;
     margin-left: 0em;
@@ -69,7 +63,7 @@
 
 @media (max-width: 800px) {
   .Title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-right: 0rem;
     margin-left: 0rem;
   }

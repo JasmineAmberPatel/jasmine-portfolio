@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
+    background: #f5f5f5;
+    border-radius: 10px;
 }
 
 .project-title {
@@ -16,6 +17,7 @@
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
+    margin: 2rem;
 }
 
 .Projects_box {
@@ -27,7 +29,7 @@
     flex-direction: column;
     position: relative;
     height: 350px;
-    margin: 4rem;
+    margin: 2rem;
 }
 .Projects_box:hover {
     visibility: visible;
@@ -59,12 +61,6 @@
 .Projects_image:active {
     z-index: -1;
 }
-
-@media (max-width: 600px) {
-    .Projects_box {
-        margin: 3rem;
-  }
-}  
 
 @media (max-width: 940px) {
     .Projects_container {
