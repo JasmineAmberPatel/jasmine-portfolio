@@ -22,13 +22,19 @@
     width: 70%;
 }
 
+.Main {
+    display: flex;
+    flex-direction: inline-flex;
+    justify-content: space-between;
+}
+
 .Intro {
-    width: 100%;
+    width: 70%;
     font-size: 13px;
 }
 
 .Jasmine {
-    height: 300px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -43,9 +49,18 @@
         border-radius: 0px;
         padding-top: 2rem;
     }
+    .Main {
+        display: flex;
+        flex-direction: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Intro {
+        width: 100%;
+    }
     .Jasmine {
-        height: 250px;
-        border-radius: 50%;
+        height: 200px
     }
   }
 
