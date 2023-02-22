@@ -10,7 +10,8 @@
     margin-bottom: 4rem;
     margin-top: 4rem;
     background: rgb(225,201,255);
-    background-image: url("../images/pink.jpg");
+    background: radial-gradient(circle, rgb(242, 189, 197) 0%, rgb(249, 180, 134) 100%);
+    /* background-image: url("../images/pink.jpg"); */
     background-size: cover;
 }
 

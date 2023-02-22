@@ -8,7 +8,7 @@ function Projects() {
             <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
                 <div className="Projects_box community">
-                    <img className="Projects_image" src={require('../images/community-events-1.png')} alt="spotify mosaic"></img>
+                    <img className="Projects_image" src={require('../images/community-events-1.png')} alt="community events app"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Community Events App</h2>
                         <p className="Paragraph">An iOS app built with Swift and SwiftUI. The app has an interactive map which shows all the community events happening in a given location. Once a community event is clicked on, on the map, it will display more detailed information about the event such as the location, date, time, cost and a brief description and picture. The app consumes a .NET minimal API which is linked to a MongoDB database.
@@ -81,7 +81,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="Projects_box music">
-                    <img className="Projects_image" src={require('../images/music-01.png')} alt="golden shoe"></img>
+                    <img className="Projects_image" src={require('../images/music-01.png')} alt="music library api"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Music Library API</h2>
                         <p className="Paragraph">This CRUD REST API stores information about artists, albums and songs and interacts with a MongoDB database using Express.
