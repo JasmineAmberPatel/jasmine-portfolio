@@ -25,16 +25,20 @@
 .Main {
     display: flex;
     flex-direction: inline-flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .Intro {
     width: 70%;
-    font-size: 13px;
+}
+
+.Summary {
+    font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
 .Jasmine {
-    height: 250px;
+    height: 230px;
     border-radius: 50%;
 }
 
