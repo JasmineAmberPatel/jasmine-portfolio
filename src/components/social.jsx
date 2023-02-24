@@ -6,7 +6,7 @@ import '../styles/social.css';
 function Social() {
     return (
         <div className="Social" id="social">
-            <a className="btn btn-dark cv" href="https://drive.google.com/file/d/1UKlpOkBVneVc5_WlP2MSvIUu9yXdaS49/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a className="btn btn-dark cv" href="https://drive.google.com/file/d/1LRp_CpyEYkRpdSawD-HFv47UO7Topi3A/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
             <br />
             <div className="social-icons">
                 <SocialIcon url="https://www.linkedin.com/in/jasmine-amber-patel-b04956a1/" network="linkedin" target="_blank" style={{ height: 35, width: 35 }} bgColor="#272727" fgColor="#ffffff" />
