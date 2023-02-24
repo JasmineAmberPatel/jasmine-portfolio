@@ -62,11 +62,25 @@
     z-index: -1;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 800px) {
     .Projects_container {
         justify-content: center;
+        margin: 0rem;
   }
     .Projects_box {
         justify-content: space-around;
+        margin-left: 1rem;
+        margin-right: 1rem;
   }
+  .project-title {
+    margin-top: 2rem;
+}
 }  
+
+@media (max-width: 360px) {
+    .Projects_box {
+        justify-content: space-around;
+        margin-left: 0rem;
+        margin-right: 0rem;
+  }
+}
