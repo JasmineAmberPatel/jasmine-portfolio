@@ -8,7 +8,7 @@ function Projects() {
             <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
             <div className="Projects_box flickr">
-                    <img className="Projects_image" src={require('../images/photo-finder.png')} alt="photo finder app"></img>
+                    <img className="Projects_image" src={require('../images/photo-finder.png')} alt="flickr finder app"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Photo Finder App</h2>
                         <p className="Paragraph">An iOS app built with Swift and SwiftUI. It leverages the MVVM (Model-View-ViewModel) architectural pattern and integrates with the Flickr API to search and display photos by keyword and by user.
