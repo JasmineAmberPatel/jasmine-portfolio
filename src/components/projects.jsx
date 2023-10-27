@@ -7,6 +7,17 @@ function Projects() {
         <div className="Projects" id="projects">
             <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
+            <div className="Projects_box flickr">
+                    <img className="Projects_image" src={require('../images/photo-finder.png')} alt="photo finder app"></img>
+                    <div className="Project-info gq-info">
+                        <h2 className="Subtitle">Photo Finder App</h2>
+                        <p className="Paragraph">An iOS app built with Swift and SwiftUI. It leverages the MVVM (Model-View-ViewModel) architectural pattern and integrates with the Flickr API to search and display photos by keyword and by user.
+                        </p>
+                        <div className="buttons">
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/flickr" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="Projects_box community">
                     <img className="Projects_image" src={require('../images/community-events-1.png')} alt="community events app"></img>
                     <div className="Project-info gq-info">
@@ -38,7 +49,7 @@ function Projects() {
                         <p className="Paragraph">A classic snake game created using vanilla JavaScript and styled with CSS. All graphics were also created by me using adobe illustrator.
                         </p>
                         <div className="buttons">
-                            <a className="btn" href="https://github.com/JasmineAmberPatel/Snake" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/Snake" target="_blank" rel="noopener noreferrer">View Code</a>
                             <a className="btn" href="https://snackysnake.now.sh/" target="_blank" rel="noopener noreferrer">Play Game</a>
                         </div>
                     </div>
@@ -51,7 +62,7 @@ function Projects() {
                             The prototype allows you to filter shoes by price, size and popularity. It also allows you to add and remove shoes from the basket.
                         </p>
                         <div className="buttons">
-                            <a className="btn" href="https://github.com/JasmineAmberPatel/Golden-Shoe" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/Golden-Shoe" target="_blank" rel="noopener noreferrer">View Code</a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +75,7 @@ function Projects() {
                             I took responsibility for the carbon calculator which was created using a React form, which passes the submitted information into a JavaScript function.
                             I also did all of the styling for the website using CSS and assisted with the API integration.</p>
                         <div className="buttons">
-                            <a className="btn" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank" rel="noopener noreferrer">View Code</a>
                             <a className="btn" href="https://green-queens.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
@@ -88,7 +99,7 @@ function Projects() {
                             I used Mongoose to write the MongoDB validation in the form of schemas and models. I also used Test Driven Development and wrote tests using Mocha and Chai.
                         </p>
                         <div className="buttons">
-                            <a className="btn" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank" rel="noopener noreferrer">View Code</a>
                         </div>
                     </div>
                 </div>
