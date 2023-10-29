@@ -25,8 +25,8 @@ function Projects() {
                         <p className="Paragraph">An iOS app built with Swift and SwiftUI. The app has an interactive map which shows all the community events happening in a given location. Once a community event is clicked on, on the map, it will display more detailed information about the event such as the location, date, time, cost and a brief description and picture. The app consumes a .NET minimal API which is linked to a MongoDB database.
                         </p>
                         <div className="buttons">
-                            <a className="btn" href="https://drive.google.com/file/d/1gcZaFeWNEPL44Z2ZhIlwCBgUzoiPWwBL/view?usp=sharing" target="_blank" rel="noopener noreferrer">App Demo</a>
-                            <a className="btn" href="https://drive.google.com/file/d/1SJ1aJys8POK2VvXY5xZlYBCX2YcAP9zf/view?usp=sharing" target="_blank" rel="noopener noreferrer">API Demo</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/CommunityEvents" target="_blank" rel="noopener noreferrer">App Code</a>
+                            <a className="btn" href="https://github.com/JasmineAmberPatel/CommunityEventsApi" target="_blank" rel="noopener noreferrer">API Code</a>
                         </div>
                     </div>
                 </div>
