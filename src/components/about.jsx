@@ -19,7 +19,7 @@ function About() {
                             I am currently working as an iOS Engineer at Yorkshire Building Society.</p>
                         <br />
                     </div>
-                    <img className="Jasmine" src={require('../images/jasmine-picture.png')} alt="Jasmine"></img>
+                    <img className="Jasmine" src={require('../images/jasmine.JPG')} alt="Jasmine"></img>
                 </div>
             </div>
         </div>
