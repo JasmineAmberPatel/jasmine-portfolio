@@ -7,7 +7,7 @@ function Projects() {
         <div className="Projects" id="projects">
             <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
-                <div className="Projects_box flickr">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/photo-finder.png')} alt="flickr finder app"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Photo Finder App</h2>
@@ -18,7 +18,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box community">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/community-events-1.png')} alt="community events app"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Community Events App</h2>
@@ -30,7 +30,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box spotify">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/spotify-mosaic.png')} alt="spotify mosaic"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Music Mosaic</h2>
@@ -42,7 +42,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box snacky">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/snacky.png')} alt="snacky snake game"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Snacky Snake</h2>
@@ -54,7 +54,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box golden">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/golden-shoe-01.png')} alt="golden shoe"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Golden Shoe</h2>
@@ -91,7 +91,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box music">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/music-01.png')} alt="music library api"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Music Library API</h2>
@@ -103,7 +103,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box  weather">
+                <div className="Projects_box">
                     <img className="Projects_image" src={require('../images/weather-01.png')} alt="weather app"></img>
                     <div className="Project-info">
                         <h2 className="Subtitle">Weather Forecast</h2>

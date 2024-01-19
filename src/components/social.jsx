@@ -10,11 +10,10 @@ function Social() {
             <br />
             <div className="social-icons">
                 <SocialIcon url="https://www.linkedin.com/in/jasmine-amber-patel-b04956a1/" network="linkedin" target="_blank" style={{ height: 35, width: 35 }} bgColor="#272727" fgColor="#ffffff" />
-                <SocialIcon url="https://twitter.com/CodesJamber" network="twitter" target="_blank" style={{ height: 35, width: 35, margin: 10 }} bgColor="#272727" fgColor="#ffffff" />
-                <SocialIcon url="https://github.com/JasmineAmberPatel" network="github" target="_blank" style={{ height: 35, width: 35 }} bgColor="#272727" fgColor="#ffffff" />
-                <SocialIcon url="https://www.instagram.com/jamber_ceramics/" network="instagram" target="_blank" style={{ height: 35, width: 35, margin: 10 }} bgColor="#272727" fgColor="#ffffff" />
+                <SocialIcon url="https://github.com/JasmineAmberPatel" network="github" target="_blank" style={{ height: 35, width: 35, margin: 10 }} bgColor="#272727" fgColor="#ffffff" />
+                <SocialIcon url="https://www.instagram.com/jamber_ceramics/" network="instagram" target="_blank" style={{ height: 35, width: 35 }} bgColor="#272727" fgColor="#ffffff" />
             </div>
-            <p>© 2023 Jasmine Patel</p>
+            <p>© 2024 Jasmine Patel</p>
         </div>
     )
 };
